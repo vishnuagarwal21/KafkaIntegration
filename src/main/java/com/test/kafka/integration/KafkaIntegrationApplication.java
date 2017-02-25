@@ -5,14 +5,14 @@ import com.datasift.dropwizard.kafka.consumer.KafkaConsumer;
 import com.datasift.dropwizard.kafka.serializer.JacksonDecoder;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.test.kafka.integration.config.ApplicationConfig;
-import com.test.kafka.integration.config.KafkaProcessor;
+import com.test.kafka.integration.processor.KafkaProcessor;
 
 import io.dropwizard.Application;
 import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 
 /**
- * Hello world!
+ * @author vishnu.agarwal
  *
  */
 public class KafkaIntegrationApplication extends Application<ApplicationConfig> {
