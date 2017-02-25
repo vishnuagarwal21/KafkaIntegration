@@ -12,7 +12,8 @@ import io.dropwizard.setup.Bootstrap;
 import io.dropwizard.setup.Environment;
 
 /**
- * @author vishnu.agarwal
+ * @author vishnu.agarwal 26/02/2017
+ * 
  *
  */
 public class KafkaIntegrationApplication extends Application<ApplicationConfig> {
