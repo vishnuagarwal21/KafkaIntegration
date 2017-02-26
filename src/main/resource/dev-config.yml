@@ -14,7 +14,7 @@ server:
   minThreads: 100
   maxThreads: 100
   connector:
-    port: 8081
+    port: 8080
     type: http
 
 
@@ -27,4 +27,4 @@ kafkaConsumerFactory:
   zookeeper:
     hosts: [localhost]
   partitions:
-    test: 1
+    test5: 1
