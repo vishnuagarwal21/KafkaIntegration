@@ -1,2 +1,2 @@
 # KafkaIntegration
-This application is to demostrate kafka integration in dropwizard.
+This application demonstrates that how kafka consumer can be written in dropwizard frame work.
